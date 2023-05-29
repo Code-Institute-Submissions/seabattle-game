@@ -44,7 +44,20 @@ def create_ships(board):
             if column=='X':
                 count+=1
     return count
-    
+
+    create_ships(Hidden_Pattern)
+#print_board(Hidden_Pattern)
+turns = 10
+while turns > 0:
+    print('Welcome to Battleship')
+    print_board(Guess_Pattern)
+    row,column =get_ship_location()
+    if Guess_Pattern[row][column] == '-':
+        print(' You already guessed that ')
+    elif Hidden_Pattern[row][column] =='X':
+        print(' Congratulations you have hit the battleship ')
+        Guess_Pattern[row][column] = 'X'
+        turns -= 1
 
 
 

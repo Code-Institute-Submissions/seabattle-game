@@ -30,5 +30,13 @@ def get_ship_location():
         print("Please enter a valid column ")
         column=input('Please enter a ship column A-H ')
     return int(row)-1,let_to_num[column]
+    #Function that creates the ships
+def create_ships(board):
+    for ship in range(5):
+        ship_r, ship_cl=randint(0,7), randint(0,7)
+        while board[ship_r][ship_cl] =='X':
+            ship_r, ship_cl = randint(0, 7), randint(0, 7)
+        board[ship_r][ship_cl] = 'X'
+
 
 

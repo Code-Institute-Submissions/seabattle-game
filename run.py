@@ -58,6 +58,17 @@ while turns > 0:
         print(' Congratulations you have hit the battleship ')
         Guess_Pattern[row][column] = 'X'
         turns -= 1
+    else:
+        print('Sorry,You missed')
+        Guess_Pattern[row][column] = '-'
+        turns -= 1
+    if  count_hit_ships(Guess_Pattern) == 5:
+        print("Congratulations you have sunk all the battleships ")
+        break
+    print(' You have ' +str(turns) + ' turns remaining ')
+    if turns == 0:
+        print('Game Over ')
+        break
 
 
 

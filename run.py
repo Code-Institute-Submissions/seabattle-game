@@ -12,7 +12,7 @@ def print_board(board):
     print('  A B C D E F G H')
     print(' *****************')
 
- row_num=1
+    row_num=1
     for row in board:
         print("%d|%s|" % (row_num, "|".join(row)))
         row_num +=1
@@ -37,6 +37,14 @@ def create_ships(board):
         while board[ship_r][ship_cl] =='X':
             ship_r, ship_cl = randint(0, 7), randint(0, 7)
         board[ship_r][ship_cl] = 'X'
+        def count_hit_ships(board):
+    count=0
+    for row in board:
+        for column in row:
+            if column=='X':
+                count+=1
+    return count
+    
 
 
 

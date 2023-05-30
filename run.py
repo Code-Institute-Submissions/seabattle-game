@@ -62,11 +62,11 @@ while turns > 0:
     if Guess_Pattern[row][column] == '-':
         print(' You already guessed that ')
     elif Hidden_Pattern[row][column] == 'X':
-        print(' Congratulations you have hit the battleship ')
+        print(' Congratulations! You hit one ship')
         Guess_Pattern[row][column] = 'X'
         turns -= 1
     else:
-        print('Sorry,You missed')
+        print('MISSED!')
         Guess_Pattern[row][column] = '-'
         turns -= 1
     if count_hit_ships(Guess_Pattern) == 5:

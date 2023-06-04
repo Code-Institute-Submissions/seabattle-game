@@ -1,6 +1,6 @@
-###Random module for randomly accepting the values
-### ‘X’ indicates the ships hit
-### ‘ - ’ indicates the hits missed
+#Random module for randomly accepting the values
+# ‘X’ indicates the ships hit
+# ‘ - ’ indicates the hits missed
 from random import randint
 
 Hidden_Pattern = [[' '] * 8 for x in range(8)]
@@ -22,12 +22,12 @@ def get_ship_location():
     #Enter the row number between 1 to 8
     row = input('Please enter a ship row 1-8 ').upper()
     while row not in '12345678':
-        print("Please enter a valid row ")
+        print("Please enter a valid number ")
         row = input('Please enter a ship row 1-8 ')
     #Enter the Ship column from A TO H
     column = input('Please enter a ship column A-H ').upper()
     while column not in 'ABCDEFGH':
-        print("Please enter a valid column ")
+        print("Please enter a valid letter ")
         column = input('Please enter a ship column A-H ')
     return int(row) - 1,let_to_num[column]
 
@@ -62,7 +62,7 @@ while turns > 0:
         Guess_Pattern[row][column] =  'X'
         turns -= 1
     else:
-        print('Sorry,You missed')
+        print('Sorry, You missed')
         Guess_Pattern[row][column] = '-'
         turns -= 1
     if  count_hit_ships(Guess_Pattern) == 5:

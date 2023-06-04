@@ -24,7 +24,7 @@ When and if the player hits all the five ships, then the player wins and the gam
 
 ###Existing Features
 
-RAndom board generation
+Random board generation
 
 Ships are randomly placed on the screenboard.
 The player can not see where the computers ships are.

@@ -35,7 +35,8 @@ Shows message of where the user missed
 
 Shows message of where the user hit
 
-![Image of first hit](images/first%20hit.png)
+
+
 
 Input validation and error-checking
 you cannot enter coordinates outside the stipuleted values. 
@@ -47,8 +48,16 @@ you cannot enter coordinates outside the stipuleted values.
 You cannot enter the same guess twice
 ![Image: You already guessed](images/already-guessed.png)
 
-The game keeps track on the achieved score and how many tries are left:
-![Image: counting a hit and how many turns left](images/counting-hit-and%20turns-left.png)
+
+
+
+
+
+
+Data maintained 
+
+
+
 
 
 #Testing

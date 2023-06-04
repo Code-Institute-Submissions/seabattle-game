@@ -100,7 +100,7 @@ Click on Deploy
 Code Institute for the deployment terminal
 Wikipedia for the details of the Seabattles game
 copyassignments webpage for explication and information about what codes function and why:
-("https://copyassignment.com/battleship-game-code-in-python/")
+("https://copyassignment.com/battleship-game-code-in-python/") and also ("https://www.youtube.com/watch?v=tF1WRCrd_HQ")
 
 
 

@@ -74,8 +74,12 @@ Tested in my local terminal and the Code Institute Heroku terminal
 =======
 Passed the code throug a PEP8 linter and confirmed there are no bigger problems.
 Given invalid inputs: strings when numbers are expected, out of bounds inputs, same input twice.
+<<<<<<< HEAD
 Tested in my local terminal and the Code Institute Heroku termin
 >>>>>>> dd973c9 (initial commit)
+=======
+Tested in my local terminal and the Code Institute Heroku terminal
+>>>>>>> 2daaf43 (git)
 
 #Bugs
 

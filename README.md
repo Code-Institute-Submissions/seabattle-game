@@ -35,8 +35,12 @@ Shows message of where the user missed
 
 Shows message of where the user hit
 
+<<<<<<< HEAD
 
 
+=======
+![Image of first hit](images/first%20hit.png)
+>>>>>>> 17a613c (add README.md file changes)
 
 Input validation and error-checking
 you cannot enter coordinates outside the stipuleted values. 
@@ -68,6 +72,7 @@ Data maintained
 I have manually tested this project by doing the following:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Passed the code through a PEP8 linter and confirmed there are no problems.
 Given invalid inputs: strings when numbers are expected, out of bounds inputs and  same input twice.
 Tested in my local terminal and the Code Institute Heroku terminal
@@ -78,6 +83,10 @@ Given invalid inputs: strings when numbers are expected, out of bounds inputs, s
 Tested in my local terminal and the Code Institute Heroku termin
 >>>>>>> dd973c9 (initial commit)
 =======
+=======
+Passed the code through a PEP8 linter and confirmed there are no problems.
+Given invalid inputs: strings when numbers are expected, out of bounds inputs and  same input twice.
+>>>>>>> 17a613c (add README.md file changes)
 Tested in my local terminal and the Code Institute Heroku terminal
 >>>>>>> 2daaf43 (git)
 

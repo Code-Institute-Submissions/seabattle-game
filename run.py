@@ -29,7 +29,7 @@ def get_ship_location():
     while column not in 'ABCDEFGH':
         print("Please enter a valid letter ")
         column = input('Please enter a ship column A-H ')
-    return int(row) - 1,let_to_num[column]
+    return int(row) - 1, let_to_num[column]
 
 #Function that creates the ships
 def create_ships(board):
@@ -54,7 +54,7 @@ turns = 10
 while turns > 0:
     print('Welcome to Battleship')
     print_board(Guess_Pattern)
-    row,column = get_ship_location()
+    row, column = get_ship_location()
     if Guess_Pattern[row][column] ==  '-':
         print(' You already guessed that ')
     elif Hidden_Pattern[row][column] == 'X':

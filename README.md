@@ -114,7 +114,7 @@ After project has been deployed successfully I clicked the View-button to see th
 
 Credits
 [PRANJAL DEV] https://copyassignment.com/battleship-game-code-in-python and also [KnowledgeMavens]https://www.youtube.com/watch?v=tF1WRCrd_HQ
- My whole project is based on his youtube tutorial. however, I have tried to change a bit but have largely coded with him in his video and also with the tution from copyassigment.
+My whole project is based on his youtube tutorial. however, I have tried to change a bit but have largely coded with him in his video and also with the tution from copyassigment.
 
 Pages I used to solve errors and other problems and some code: https://stackoverflow.com/  https://www.w3schools.com/python/python_conditions.asp https://www.geeksforgeeks.org/python-docstrings/
 

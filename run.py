@@ -18,17 +18,23 @@ def print_board(board):
         row_num +=1
 
 
-def get_ship_location(): 
-    #Enter the row number between 1 to 8
-    row = input('Please enter a ship row 1-8 ').upper()
-    while row not in '12345678':
-        print("Please enter a valid number ")
-        row = input('Please enter a ship row 1-8 ')
-    #Enter the Ship column from A TO H
-    column = input('Please enter a ship column A-H ').upper()
-    while column not in 'ABCDEFGH':
-        print("Please enter a valid letter ")
-        column = input('Please enter a ship column A-H ')
+
+
+def get_ship_location():
+    while True:
+        # Enter the row number between 1 to 8
+        row = input('Please enter a ship row 1-8 ').strip()
+        if row.isdigit() and row in '12345678':
+            break
+        else:
+            print('Please enter a valid number between 1-8')1
+    while True:
+        # Enter the Ship column from A TO H
+        column = input('Please enter a ship column A-H ').upper().strip()
+        if column in 'ABCDEFGH' and column no:
+            
+        else:
+            print("Please enter a valid letter ")
     return int(row) - 1, let_to_num[column]
 
 #Function that creates the ships
@@ -53,7 +59,7 @@ create_ships(HIDDEN_PATTERN)
 turns = 10
 while turns > 0:
     print('Welcome to Battleship')
-    print_board(Guess_Pattern)
+    print_board(GUESS_PATTERN)
     row, column = get_ship_location()
     if GUESS_PATTERN[row][column] ==  '-':
         print(' You already guessed that ')

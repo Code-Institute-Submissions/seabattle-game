@@ -27,7 +27,7 @@ def get_ship_location():
         if row.isdigit() and row in '12345678':
             break
         else:
-            print('Please enter a valid number between 1-8')1
+            print('Please enter a valid number between 1-8')
     while True:
         # Enter the Ship column from A TO H
         column = input('Please enter a ship column A-H ').upper().strip()

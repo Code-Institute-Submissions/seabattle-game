@@ -29,10 +29,9 @@ def get_ship_location():
         else:
             print('Please enter a valid number between 1-8')
     while True:
-        # Enter the Ship column from A TO H
-        column = input('Please enter a ship column A-H ').upper().strip()
-        if column in 'ABCDEFGH' and column no:
-            
+        column = input('Please enter a ship column A-H ').upper()
+        if column in 'ABCDEFGH' and column != '':
+            break
         else:
             print("Please enter a valid letter ")
     return int(row) - 1, let_to_num[column]

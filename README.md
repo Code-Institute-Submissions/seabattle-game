@@ -26,38 +26,38 @@ Features
 Existing Features
 
 Live 
-![Playing the game live](https://vimeo.com/833591245/04b2c715d4)
+HTML Video (https://vimeo.com/833591245/04b2c715d4)
 
 Random board generation
 
 Ships are randomly placed on the screenboard.
 The player can not see where the computers ships are.
-![Image of board before starting to play](../seabattle-game/images/before_playing.png)
+![Image of board before starting to play](images/before_playing.png)
 
-Play against the computer
+
+Playing against the computer
 Accepts users input
 Maintains scores
 Shows message of where the user missed
 
-![Image of first miss](../seabattle-game/images/first%20miss.png)
+![Image of first miss](images/first%20miss.png)
 
 Shows message of where the user hit
 
-![Image of first hit](../seabattle-game/images//first%20hit.png)
+![Image of first hit](images/first%20hit.png)
 
 Input validation and error-checking
 you cannot enter coordinates outside the stipuleted values. 
 
-![Image: You must enter a number](../seabattle-game/images//wrong%20number.png)
+![Image: You must enter a number](images/wrong%20number.png)
 
-![Image: You must enter a letter](../seabattle-game/images//wrong%20letter.png)
+![Image: You must enter a letter](images/wrong%20letter.png)
 
 You cannot enter the same guess twice
 ![Image: You already guessed that one](../seabattle-game/images//already-guessed.png)
 
 Game over
 ![Game over](../seabattle-game/images//missed-game-over.png)
-
 
 
 Technologies used

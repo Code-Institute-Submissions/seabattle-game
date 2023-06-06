@@ -120,6 +120,6 @@ Pages I used to solve errors and other problems and some code: https://stackover
 
 Gratitude
 
-A big thank you to tutor suport who helped me through this project with a lot of patience and always nice treatment.
+A big thank you to tutor suport who helped me through this project with a lot of patience and always nice treatment, special thanks to Martin who helped me to research and explained complicated codes to me.
 
 A special thanks my mentor Martina Terlević for her support and advices that helped me through my process to make it.
